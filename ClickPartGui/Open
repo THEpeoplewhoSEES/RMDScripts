@@ -1,5 +1,3 @@
---Place this under a Frame in StarterGui as a LocalScript (Credit to @HrvatskaSuisse#1893): 
-
 local player = game.Players.LocalPlayer
 local GUI = script.Parent
 local part = workspace.YourPartName --Replace this with the name of your part.
