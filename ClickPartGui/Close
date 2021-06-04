@@ -1,3 +1,5 @@
+--Make a TextButton or ImageButton underneath the Frame and insert another LocalScript as a child of the button:
+
 script.Parent.MouseButton1Click:connect(function()
   script.Parent.Parent.Visible = false
 end) 
