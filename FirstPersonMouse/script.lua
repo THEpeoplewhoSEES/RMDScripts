@@ -1,4 +1,14 @@
 local player = game.Players.LocalPlayer
+local ContextActionService = game:GetService("ContextActionService")
+
+ContextActionService:BindAction(
+	"Action",
+	function ()
+		return Enum.ContextActionResult.Sink
+	end,
+	false,
+	Enum.UserInputType.MouseWheel
+)
 
 player.CharacterAdded:Connect(function()
     local plrGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
