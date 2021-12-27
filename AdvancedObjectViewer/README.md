@@ -3,7 +3,7 @@
 Demo:\
 https://discord.com/channels/773605198252998697/773998815807930399/924781386672521216
 
-Tutorial:\
+Tutorial:
 1. Create a RemoteEvent in ReplicatedStorage with the name "Actions"
 2. Copy and paste the proximity_prompt script under the object you wish to display. 
 3. Copy and paste the action script as a LocalScript in StarterCharacterScripts under StarterPlayer.
